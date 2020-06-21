@@ -43,5 +43,6 @@ file.write("Correy: " + str(count["Correy"]/votes*100) + "%" + "(" + str(count["
 file.write("Li: " + str(count["Li"]/votes*100) + "%" + "(" + str(count["Li"]) +")" + '\n')
 file.write("O'Tooley: " + str(count["O'Tooley"]/votes*100) + "%" + "(" + str(count["O'Tooley"]) +")" + '\n')
 file.write("-------------------------" + '\n')
-file.close("Winner: " + str(winner) + '\n')
+file.write("Winner: " + str(winner) + '\n')
+file.close()
 
