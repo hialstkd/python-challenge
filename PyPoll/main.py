@@ -1,7 +1,7 @@
 import os
 import csv
 
-csvpath = os.path.join('..','python-challenge','PyPoll','Resource', 'election_data.csv')
+csvpath = os.path.join('python-challenge','PyPoll','Resource', 'election_data.csv')
 
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ',')

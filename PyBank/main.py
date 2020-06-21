@@ -1,7 +1,7 @@
 import os
 import csv
 
-csvpath = os.path.join('..','python-challenge','Pybank','Resource', 'budget_data.csv')
+csvpath = os.path.join('python-challenge','Pybank','Resource', 'budget_data.csv')
 
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ',')
@@ -58,7 +58,7 @@ with open(csvpath, newline='') as csvfile:
     file.write("Greatest Increase in Profits: " + str(max_rev_date) + "($" + str(max_rev_amount) + ")" + '\n')
     file.write("Greatest Decrease in Profits: " + str(min_rev_date) + "($" + str(min_rev_amount) + ")" + '\n')
     file.close()
-    
+
 
 
    
